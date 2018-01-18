@@ -58,8 +58,7 @@ FEAT_VALUE_SEP_RE = re.compile(FEAT_VALUE_SEP)
 ##################################################################
 # Classes
 class CONLL(object):
-    """
-    Class for storing and manipulating CONLL parse forrest information.
+    """Class for storing and manipulating CONLL parse forrest information.
 
     An instance of this class comprises information about one or multiple
     parsed sentences in CONLL format.
